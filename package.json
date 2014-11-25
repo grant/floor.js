@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/grant/floor.js/issues"
   },
-  "homepage": "https://github.com/grant/floor.js"
+  "homepage": "https://github.com/grant/floor.js",
+  "dependencies": {
+    "decimal-adjust": "0.0.0"
+  }
 }
