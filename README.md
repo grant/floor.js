@@ -29,10 +29,10 @@ Returns the largest integer less than or equal to `value` to `scale` (+/-) numbe
 ```js
 var floor = require('floor');
 
-floor(55.51, -1); // 55.6
-floor(51, 1); // 60
-floor(-55.59, -1); // -55.5
-floor(-59, 1); // -50
+floor(55.51, -1); // 55.5
+floor(51, 1); // 50
+floor(-55.59, -1); // -55.6
+floor(-59, 1); // -60
 
 floor(12489.9482, 5); // 0
 floor(12489.9482, 4); // 10000
